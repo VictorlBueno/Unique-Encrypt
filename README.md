@@ -1,10 +1,10 @@
 ><a href="https://github.com/VictorlBueno/cryptographer/archive/refs/heads/main.zip" target="_blank">Download the Virtual Test</a></br>
 ><a href="https://github.com/stars/VictorlBueno/lists/back-end" target="_blank">See more Back-end codes</a></br>
 
-# Encoder and decoder 🔡
-Encoder takes a text or word through input and turns it into code similar to this: <code>♤∴!∷♝☀∷∷✲✸∷∷∷✲✾∷∷∷∷✸✲∷∷∷∷∷,♛</code>
+# Encrypt and Decrypt 🔡
+Encrypt takes a text or word through input and turns it into code similar to this: <code>♤∴!∷♝☀∷∷✲✸∷∷∷✲✾∷∷∷∷✸✲∷∷∷∷∷,♛</code>
 
-In the same folder contains the decoder that collects the encrypted text and transforms it into the original text. Using the example above, it would revert to <code>Hello, World!</code>
+In the same folder contains the decrypt that collects the encrypted text and transforms it into the original text. Using the example above, it would revert to <code>Hello, World!</code>
 
 # Languages 👨‍💻
 <ul>
