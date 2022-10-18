@@ -6,6 +6,8 @@ Encrypt takes a text or word through input and turns it into code similar to thi
 
 In the same folder contains the decrypt that collects the encrypted text and transforms it into the original text. Using the example above, it would revert to <code>Hello, World!</code>
 
+https://user-images.githubusercontent.com/110859187/196564000-6632e267-f336-4b02-9ac4-ca5040adee46.mp4
+
 # Languages 👨‍💻
 <ul>
   <li>Python</li>
