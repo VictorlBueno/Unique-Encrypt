@@ -1,42 +1,48 @@
-from word_encrypt import *
+from functools import reduce
+from word_decrypt import *
 
-word = list(input("Encrypt: "))
-while len(word) < 6:
-    print("Type a word/text over 6 digits")
-    word = list(input("Encrypt: "))
+keys = ["‡","ɬ","ɨ","ɍ","⑆","⑇","།","༑","༎","༏"]
+keyC = list(input("Choose a key: "))
+keyC = [int(num) for num in keyC]
+key = reduce(lambda x, y:x+y, keyC)
+key = keys[key]
 
-decrypted = []
-mc(word,decrypted)  
-decrypted.reverse()
-
-an = 6
+descript = list(input("Texto to decrypt: "))
 encrypted = []
+md(descript,encrypted)
+encrypted.reverse()
 
-for i in range(an):
-    encrypted.insert(i, decrypted[0])
-    decrypted.pop(0)
+for i in range(6):
+    encrypted.append(key*(1*i)+"*"*(encrypted.index(key)))
 
-tm = (len(encrypted)*2)-1
-for i in range(1,tm,2):
-    encrypted.insert(i, "/")
+ebackup = list(encrypted)
+password = []
 
-cu = encrypted.count("/")
-cs = 0
-for i in range(cu):
-    for ii in range(i):
-        if "/" in encrypted:
-            po = encrypted.index("/")
-            cs += 1
-            encrypted.insert(po, "∷"*cs)
-            encrypted.pop(po+1)
+while len(encrypted) > 0:  
+    while encrypted[0] == key or encrypted[0] == "⧽" or encrypted[0] == "⥾" or encrypted[0] == "⇞" or encrypted[0] == "❚" or encrypted[0] == "˫":
+        encrypted.pop(0)
 
-rc = round((len(decrypted)/an)+1)
-for i in range(rc):
-    for ii in range(i+1, an*(3+i), i+3):
-        if len(decrypted) > 0:
-            encrypted.insert(ii, decrypted[0]) 
-            decrypted.pop(0)         
+    if key in encrypted:
+        ind = encrypted.index(key)
+        password.append(encrypted[:ind])
+        for rm in range(ind):
+            encrypted.pop(0)
+    else:
+        password.append(encrypted[:len(encrypted)])
+        encrypted.clear()
 
-encrypted = "".join(encrypted)
-print(encrypted)
+for i in range(len(password)):
+    for ii in range(len(password[0])):
+        password[i].append("*")
+
+descript = []
+for l in range(len(password[0])):
+    for c in range(len(password)):
+        descript.append(password[c][l])
+
+descript = list(filter(lambda i: i not in "*" not in i !=key not in i !="⧽" not in i !="⥾" not in i !="⇞" not in i !="❚" not in i !="˫", descript))
+
+descript = "".join(descript)
+print(descript)
+
 
