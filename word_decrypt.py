@@ -129,3 +129,6 @@ def md(descript,descripted):
         else:
             descripted.insert(0, descript[0])
         descript.pop(0)
+
+def charList(name):
+    name == "∷" or name == "⧽" or name == "⥾" or name == "⇞" or name == "❚" or name == "˫"
