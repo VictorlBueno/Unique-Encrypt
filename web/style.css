@@ -25,7 +25,7 @@ body {
         height: 87px;
         border: 0px;
         border-radius: 3px;
-        font-size: 1.7vh;
+        font-size: 35px;
         align-items: center;
         justify-content: center;
     }
@@ -48,7 +48,7 @@ body {
         margin: 1vw;
         text-align: left;
         padding: 17px;
-        font-size: 2.2vh;
+        font-size: 40px;
         color: white;
     }
 
@@ -74,12 +74,12 @@ body {
     }
 
     .light {
-        font-size: 1.3vh;
+        font-size: 25px;
         font-weight: 200;
     }
 
     .bold {
-        font-size: 2.2vh;
+        font-size: 32px;
         font-weight: 600;
     }
 
@@ -92,7 +92,7 @@ body {
     }
 
     .typewrite {
-        font-size: 4vh;
+        font-size: 70px;
         align-items: center;
     }
 
@@ -110,7 +110,7 @@ body {
         border: 0px;
         border-radius: 3px;
         color: white;
-        font-size: 2.2vh;
+        font-size: 40px;
         text-align: left;
         padding: 17px;
     }
@@ -125,7 +125,7 @@ body {
 
     .howTo {
         margin: 5%;
-        font-size: 2vh;
+        font-size: 45px;
     }
 
     .buttons {
