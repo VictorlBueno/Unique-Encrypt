@@ -63,7 +63,7 @@ function Encrypt() {
         }
     }
     else {
-        result.innerHTML = "Type a key"
+        result.innerHTML = "Type a password"
     } 
 }
 
@@ -135,7 +135,7 @@ function Decrypt() {
         }
     }
     else {
-        result.innerHTML = "Type a key"
+        result.innerHTML = "Type a password"
     } 
 }
 
