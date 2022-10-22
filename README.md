@@ -2,7 +2,7 @@
 ><a href="https://github.com/stars/VictorlBueno/lists/back-end" target="_blank">See more Back-end codes</a></br>
 
 # Encrypt and Decrypt 🔡
-Encrypt takes a text or word through input and turns it into code similar to this: <code>♤∴!∷♝☀∷∷✲✸∷∷∷✲✾∷∷∷∷✸✲∷∷∷∷∷,♛</code>
+Encrypt takes a text or word through input and turns it into code similar to this: <code>♤∴!⑇⥾♝☀⑇⇞⇞✲✸⑇⧽⧽⧽✲✾⑇⇞⇞⇞⇞✸✲⑇⇞⇞⇞⇞⇞,♛</code>
 
 In the same folder contains the decrypt that collects the encrypted text and transforms it into the original text. Using the example above, it would revert to <code>Hello, World!</code>
 
