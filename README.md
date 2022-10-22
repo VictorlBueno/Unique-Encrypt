@@ -6,14 +6,21 @@
 
 <p>The user enters the desired text, and the tool encrypts the text.</p>
 
-### Example
+### 🔎 Example
 <p>Before: "Hello, World!"</p>
 <p>After: "♤∴!⑇⥾♝☀⑇⇞⇞✲✸⑇⧽⧽⧽✲✾⑇⇞⇞⇞⇞✸✲⑇⇞⇞⇞⇞⇞,♛".</p>
 
 <p>To recover the text, simply paste the encrypted text and click "decrypt".</p>
 
-### Unique encryption
+### ✔️ Unique encryption
 <p>So that other people who have access to the encrypted text cannot recover their encrypted text, before using the tool, the user must enter a password, this password creates a new encryption logic, and decryption with the incorrect password is not possible.</p>
+
+### 🔒 Encryption logic
+1. The text is placed in a "table" where each letter jumps 1 line and 1 column, making the diagonal view.
+2. Spaces are filled with random special characters.
+3. The table is transformed into text in the order it was in the table.
+4. Text is reversed from back to front.
+5. Text letters are converted to special characters.
 
 <p>See the encryption logic in the video</p>
 
