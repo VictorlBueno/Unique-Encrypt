@@ -2,30 +2,26 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Encrypt</title>
+        <title>VLB Encrypt</title>
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
     </head>
     <body>
-        <div>
-            <div class="textInfo">
-                <h1 class="typewrite" data-period="3000" data-type='[ "Encrypt text", "♞❅⑇❚✶∴⑇⇞⇞♙❅", "Encrypt text", "I♜❅⑇⇞♝∴⑇❚❚♙❅⑇⇞⇞" ]'><span class="wrap"></span>
-                </h1>
-                <p class="bold">Encrypt any text or number with unique logic according to your password.</p><br>
-                <p class="light">Enter a password in numbers, enter the text you want to encrypt and click "encrypt". To decrypt, paste the encrypted text in the right box and click "decrypt".</p>
-            </div>
-            <div class="buttons"> 
-                <input class="key" type="number" id="key" placeholder="password" />
-                <button type="submit" id="send" value="" class="send" onclick="Encrypt()">ENCRYPT</button>
-                <button type="submit" id="send" value="" class="send" onclick="Decrypt()">DECRYPT</button>
-            </div>
-            <div class="boxes">
-                <textarea class="textarea" type="text" wrap="hard"required="required" id="text" placeholder="text to encrypt or decrypt" autocomplete="off"></textarea>
-                <textarea class="textarea" id="result" disabled="" placeholder="result"></textarea>
-            </div>
-            <div class="howTo">
-                <p>Created by VLB</p>
-            </div>
+        <div class="textInfo">
+            <h1 class="typewrite" data-period="3000" data-type='[ "Encrypt text", "♞❅⑇❚✶∴⑇⇞⇞♙❅", "Encrypt text", "I♜❅⑇⇞♝∴⑇❚❚♙❅⑇⇞⇞" ]'><span class="wrap"></span>
+            </h1>
+            <p class="bold">Encrypt any text or number with unique logic according to your password.</p><br>
+            <p class="light">Enter a password in numbers, enter the text you want to encrypt and click "encrypt". To decrypt, paste the encrypted text in the right box and click "decrypt".</p>
         </div>
+        <div class="buttons"> 
+            <input class="key" type="number" id="key" placeholder="password" />
+            <button type="submit" id="send" value="" class="send" onclick="Encrypt()">ENCRYPT</button>
+            <button type="submit" id="send" value="" class="send" onclick="Decrypt()">DECRYPT</button>
+        </div>
+        <div class="boxes">
+            <textarea class="textarea" type="text" wrap="hard"required="required" id="text" placeholder="text to encrypt or decrypt" autocomplete="off"></textarea>
+            <textarea class="textarea" id="result" disabled="" placeholder="result"></textarea>
+        </div>
+        <p class="howTo">Created by VLB</p>
     </body>
 </html>
