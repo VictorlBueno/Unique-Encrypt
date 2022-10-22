@@ -2,9 +2,20 @@
 ><a href="https://github.com/stars/VictorlBueno/lists/back-end" target="_blank">See more Back-end codes</a></br>
 
 # Encrypt and Decrypt 🔡
-Encrypt takes a text or word through input and turns it into code similar to this: <code>♤∴!⑇⥾♝☀⑇⇞⇞✲✸⑇⧽⧽⧽✲✾⑇⇞⇞⇞⇞✸✲⑇⇞⇞⇞⇞⇞,♛</code>
+<p>The tool encrypts texts or numbers of interest to you at the click of a button.</p>
 
-In the same folder contains the decrypt that collects the encrypted text and transforms it into the original text. Using the example above, it would revert to <code>Hello, World!</code>
+<p>The user enters the desired text, and the tool encrypts the text.</p>
+
+### Example
+<p>Before: "Hello, World!"</p>
+<p>After: "♤∴!⑇⥾♝☀⑇⇞⇞✲✸⑇⧽⧽⧽✲✾⑇⇞⇞⇞⇞✸✲⑇⇞⇞⇞⇞⇞,♛".</p>
+
+<p>To recover the text, simply paste the encrypted text and click "decrypt".</p>
+
+### Unique encryption
+<p>So that other people who have access to the encrypted text cannot recover their encrypted text, before using the tool, the user must enter a password, this password creates a new encryption logic, and decryption with the incorrect password is not possible.</p>
+
+<p>See the encryption logic in the video</p>
 
 https://user-images.githubusercontent.com/110859187/196564000-6632e267-f336-4b02-9ac4-ca5040adee46.mp4
 
