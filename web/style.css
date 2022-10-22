@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    border: 1px solid red;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
         margin-left: 3vw;
         background: #bfbfbf;
         width: 230px;
-        height: 90px;
+        height: 87px;
         border: 0px;
         border-radius: 3px;
         font-size: 1.7vh;
@@ -41,7 +42,7 @@ body {
 
     .textarea {
         width: 90%;
-        height: 30vh;
+        height: 25vh;
         background: #2c2c2c;
         border: 0px;
         border-radius: 3px;
@@ -124,8 +125,7 @@ body {
     }
 
     .howTo {
-        margin-left: 5%;
-        margin-top: 5%;
+        margin: 5%;
         font-size: 2vh;
     }
 
@@ -258,5 +258,4 @@ body {
         align-items: center;
         margin-bottom: 0.8vw;
     }
-
 }
