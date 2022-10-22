@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    //border: 1px solid red;
 }
 
 body {
@@ -18,121 +17,246 @@ body {
 }
 
 @media screen and (max-width:1000px) {
-    body{
-        max-width: 520px;
+    button {
+        display: flex;
+        margin-left: 3vw;
+        background: #bfbfbf;
+        width: 230px;
+        height: 90px;
+        border: 0px;
+        border-radius: 3px;
+        font-size: 1.7vh;
+        align-items: center;
+        justify-content: center;
     }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    .inputButton {
+        border: 1px solid gray;
+        border-radius: 3px;
+    }
+
+    .textarea {
+        width: 90%;
+        height: 30vh;
+        background: #2c2c2c;
+        border: 0px;
+        border-radius: 3px;
+        margin: 1vw;
+        text-align: left;
+        padding: 17px;
+        font-size: 2.2vh;
+        color: white;
+    }
+
+    textarea:focus{outline:none} {
+        border: 0px;
+    }
+
+    .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textInfo {
+        display: block;
+        margin: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        margin-top: 5vh;
+    }
+
+    .light {
+        font-size: 1.3vh;
+        font-weight: 200;
+    }
+
+    .bold {
+        font-size: 2.2vh;
+        font-weight: 600;
+    }
+
+    h1 {
+        display: flex;
+        margin-top: 1.5vw;
+        margin-bottom: 30px;
+        height: 90px;
+        font-weight: 700;
+    }
+
+    .typewrite {
+        font-size: 4vh;
+        align-items: center;
+    }
+
+    p {
+        display: flex;
+        text-align: left;
+    }
+
+    .key {
+        display: flex;
+        margin-left: 5%;
+        background: #2c2c2c;
+        width: 330px;
+        height: 90px;
+        border: 0px;
+        border-radius: 3px;
+        color: white;
+        font-size: 2.2vh;
+        text-align: left;
+        padding: 17px;
+    }
+
+    .key:focus{outline:none} {
+        border: 0px;
+    }
+
+    input[type=number]::-webkit-inner-spin-button { 
+        -webkit-appearance: none; 
+    }
+
+    .howTo {
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 2vh;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        margin-bottom: 2vw;
+    }
+
 }
 
-button {
-    display: flex;
-    margin-left: 2.1vw;
-    background: #bfbfbf;
-    width: 110px;
-    height: 37px;
-    border: 0px;
-    border-radius: 3px;
-    font-size: 2.1vh;
-    align-items: center;
-    justify-content: center;
-}
+@media screen and (min-width:1000px) {
 
-button:hover {
-    cursor: pointer;
-}
+    button {
+        display: flex;
+        margin-left: 2.1vw;
+        background: #bfbfbf;
+        width: 110px;
+        height: 37px;
+        border: 0px;
+        border-radius: 3px;
+        font-size: 2.1vh;
+        align-items: center;
+        justify-content: center;
+    }
 
-.inputButton {
-    border: 1px solid gray;
-    border-radius: 3px;
-}
+    button:hover {
+        cursor: pointer;
+    }
 
-.textarea {
-    width: 500px;
-    height: 35vh;
-    background: #2c2c2c;
-    border: 0px;
-    border-radius: 3px;
-    margin: 1vw;
-    text-align: left;
-    padding: 17px;
-    font-size: 2.2vh;
-    color: white;
-}
+    .inputButton {
+        border: 1px solid gray;
+        border-radius: 3px;
+    }
 
-textarea:focus{outline:none} {
-    border: 0px;
-}
+    .textarea {
+        width: 500px;
+        height: 35vh;
+        background: #2c2c2c;
+        border: 0px;
+        border-radius: 3px;
+        margin: 1vw;
+        text-align: left;
+        padding: 17px;
+        font-size: 2.2vh;
+        color: white;
+    }
 
-.boxes {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+    textarea:focus{outline:none} {
+        border: 0px;
+    }
 
-.textInfo {
-    display: block;
-    margin: 20px;
-    margin-left: 2.1vw;
-    margin-bottom: 4.5vh;
-    margin-top: 5vh;
-}
+    .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 
-.light {
-    font-weight: 200;
-}
+    .textInfo {
+        display: block;
+        margin: 20px;
+        margin-left: 2.1vw;
+        margin-bottom: 4.5vh;
+        margin-top: 5vh;
+    }
 
-.bold {
-    font-size: 17px;
-    font-weight: 600;
-}
+    .light {
+        font-size: 17px;
+        font-weight: 200;
+    }
 
-h1 {
-    display: flex;
-    margin-top: 2.5vw;
-    margin-bottom: 30px;
-    height: 30px;
-    font-weight: 700;
-}
+    .bold {
+        font-size: 20px;
+        font-weight: 600;
+    }
 
-p {
-    display: flex;
-    text-align: left;
-}
-
-.key {
-    display: flex;
-    margin-left: 2.1vw;
-    background: #2c2c2c;
-    width: 200px;
-    height: 37px;
-    border: 0px;
-    border-radius: 3px;
-    color: white;
-    font-size: 2.2vh;
-    text-align: left;
-    padding: 17px;
-}
-
-.key:focus{outline:none} {
-    border: 0px;
-}
-
-input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;
+    h1 {
+        display: flex;
+        margin-top: 2.5vw;
+        margin-bottom: 30px;
+        height: 60px;
+        font-weight: 700;
+    }
     
-}
+    .typewrite {
+        font-size: 4vh;
+        align-items: center;
+    }
 
-.howTo {
-    margin-left: 2.1vw;
-    margin-top: 1.5vw;
-}
+    p {
+        display: flex;
+        text-align: left;
+    }
 
-.buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    margin-bottom: 0.8vw;
-}
+    .key {
+        display: flex;
+        margin-left: 2.1vw;
+        background: #2c2c2c;
+        width: 200px;
+        height: 37px;
+        border: 0px;
+        border-radius: 3px;
+        color: white;
+        font-size: 2.2vh;
+        text-align: left;
+        padding: 17px;
+    }
 
+    .key:focus{outline:none} {
+        border: 0px;
+    }
+
+    input[type=number]::-webkit-inner-spin-button { 
+        -webkit-appearance: none; 
+    }
+
+    .howTo {
+        margin-left: 2.1vw;
+        margin-top: 1.5vw;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        margin-bottom: 0.8vw;
+    }
+
+}
