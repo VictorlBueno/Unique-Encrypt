@@ -46,6 +46,7 @@ body {
         border: 0px;
         border-radius: 3px;
         margin: 1vw;
+        margin-bottom: 3%;
         text-align: left;
         padding: 17px;
         font-size: 40px;
@@ -79,14 +80,14 @@ body {
     }
 
     .bold {
-        font-size: 32px;
+        font-size: 33px;
         font-weight: 600;
     }
 
     h1 {
         display: flex;
         margin-top: 1.5vw;
-        margin-bottom: 30px;
+        margin-bottom: 33px;
         height: 90px;
         font-weight: 700;
     }
@@ -133,7 +134,7 @@ body {
         flex-direction: row;
         justify-content: left;
         align-items: center;
-        margin-bottom: 2vw;
+        margin-bottom: 3%;
     }
 
 }
