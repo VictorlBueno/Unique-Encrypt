@@ -1,4 +1,4 @@
-><a href="https://github.com/VictorlBueno/cryptographer/archive/refs/heads/main.zip" target="_blank">Download the Virtual Test</a></br>
+><a href="https://vlb-parallax-scroll-effect.netlify.app/" target="_blank">See this code running on your web</a></br>
 ><a href="https://github.com/stars/VictorlBueno/lists/back-end" target="_blank">See more Back-end codes</a></br>
 
 # Encrypt and Decrypt 🔡
@@ -11,6 +11,9 @@ https://user-images.githubusercontent.com/110859187/196564000-6632e267-f336-4b02
 # Languages 👨‍💻
 <ul>
   <li>Python</li>
+  <li>JavaScript</li>
+  <li>HTML</li>
+  <li>CSS</li>
 </ul>
  
 #
