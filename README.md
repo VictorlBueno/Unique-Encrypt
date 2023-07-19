@@ -1,8 +1,7 @@
 ><a href="https://vlb-encrypt.netlify.app/" target="_blank">See this code running on your web</a></br>
-><a href="https://github.com/stars/VictorlBueno/lists/back-end" target="_blank">See more Back-end codes</a></br>
 
 # Encrypt and Decrypt 🔡
-<p>The tool encrypts texts or numbers of interest to you at the click of a button.</p>
+<p>A tool to encrypt texts or numbers of interest with a unique encryption through a personal password.</p>
 
 <p>The user enters the desired text, and the tool encrypts the text.</p>
 
@@ -35,8 +34,7 @@ https://user-images.githubusercontent.com/110859187/196564000-6632e267-f336-4b02
 </ul>
  
 #
-<h6>Redes Sociaiss&ensp;&ensp;&ensp;&ensp;
+<h6>Links&ensp;&ensp;&ensp;&ensp;
 <a href="https://linkedin.com/in/victorlbueno/" target="_blank">LinkedIn</a>&ensp;&ensp;•&ensp;&ensp;
-<a href="https://discordapp.com/users/Playsken#1180" target="_blank">Discord</a>&ensp;&ensp;•&ensp;&ensp;
-<a href="https://www.hackerrank.com/Playsken" target="_blank">HackerRank</a>&ensp;&ensp;•&ensp;&ensp;
+<a href="https://victor.com.de/" target="_blank">Website</a>&ensp;&ensp;•&ensp;&ensp;
 <a href="https://instagram.com/victorlbueno" target="_blank">Instagram</a></h6>
