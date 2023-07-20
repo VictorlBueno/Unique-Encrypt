@@ -1,6 +1,6 @@
 ### <a href="https://vlb-encrypt.netlify.app/" target="_blank">See this code running on your web</a></br>
 
-# Unique Encrypt?
+# Unique Encrypt
 <p>Unique Encrypt is a user-friendly tool designed to encrypt texts or numbers using a personalized encryption method based on a user-provided password. The tool ensures that only the user with the correct password can decrypt the encrypted text, providing an extra layer of security.</p>
 
 <p>The user enters the desired text, and the tool encrypts the text.</p>
